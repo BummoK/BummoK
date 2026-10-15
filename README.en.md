@@ -1,7 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/profile-photo.jpg" alt="Bummo Koo portrait" width="160"></p>
-
 <p align="center"><strong>Bummo Koo · 구범모 | PhD in Biomedical Engineering</strong><br>Algorithm Development Team Lead · Principal Researcher, SW Development, Safeware<br>Connecting sensor AI research with mobile software and integration verification.</p>
 
 <p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.md">한국어</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">Android app</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">Research & publications</a></p>

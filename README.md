@@ -1,7 +1,5 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/profile-photo.jpg" alt="Bummo Koo portrait" width="160"></p>
-
 <p align="center"><strong>구범모 · Bummo Koo | 의공학 박사</strong><br>세이프웨어(주) SW개발실 알고리즘 개발팀 팀장 · 책임연구원<br>센서 AI 연구를 모바일 소프트웨어와 제품 적용 검증으로 연결합니다.</p>
 
 <p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.en.md">English</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">모바일 앱</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">학력·논문</a></p>
