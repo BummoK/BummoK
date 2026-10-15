@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">From sensor signals to usable software</title><desc id="desc">Sensor acquisition connects to web, Windows and Android management apps, then recorded-data analysis and feedback.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1d36"/><stop offset="1" stop-color="#123d49"/></linearGradient><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#59d8c2" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="350" rx="24" fill="url(#bg)"/>
+<g font-family="Arial,sans-serif"><text x="48" y="54" fill="#67ddc6" font-size="14" letter-spacing="3">RESEARCH / BUILD / EVALUATE</text><text x="48" y="97" fill="#fff" font-size="30" font-weight="bold">From signals to usable software</text>
+<g fill="#153149" stroke="#456177"><rect x="48" y="144" width="240" height="126" rx="16"/><rect x="347" y="144" width="240" height="126" rx="16"/><rect x="646" y="144" width="240" height="126" rx="16"/><rect x="945" y="144" width="207" height="126" rx="16"/></g>
+<g fill="#fff" font-size="22" font-weight="bold"><text x="70" y="187">SENSOR</text><text x="369" y="187">SW AIRBAG</text><text x="668" y="187">FALL TRACE</text><text x="967" y="187">ITERATE</text></g>
+<g fill="#c6d8e6" font-size="16"><text x="70" y="224">IMU / BLE / recording</text><text x="369" y="224">Web · Windows · Android</text><text x="668" y="224">Replay / visual analysis</text><text x="967" y="224">Investigate / verify</text></g>
+<g stroke="#59d8c2" stroke-width="2" marker-end="url(#arrow)"><path d="M300 207h34"/><path d="M599 207h34"/><path d="M898 207h34"/></g>
+<text x="48" y="315" fill="#a8becd" font-size="14">Stored-data replay and UI previews are separate from live-device and field validation.</text></g></svg>

@@ -1,5 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/profile-photo.jpg" alt="Bummo Koo portrait" width="160"></p>
+
 <p align="center"><strong>구범모 · Bummo Koo | 의공학 박사</strong><br>세이프웨어(주) SW개발실 알고리즘 개발팀 팀장 · 책임연구원<br>센서 AI 연구를 모바일 소프트웨어와 제품 적용 검증으로 연결합니다.</p>
 
 <p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.en.md">English</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">모바일 앱</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">학력·논문</a></p>
@@ -16,6 +18,33 @@ focus = ["Sensor AI", "Wearable Healthcare"]
 work = ["Research", "Build", "Evaluate", "Improve"]
 ```
 
+
+
+## 🛠️ 앱·웹 소프트웨어
+
+연구 알고리즘을 실제로 다룰 수 있는 도구로 연결하고, 개인 프로젝트에서는 상품 탐색과 브랜드 웹 경험까지 개발했습니다.
+
+<img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/software-map.svg" alt="센서 수집 → 플랫폼별 관리 앱 → 저장 기록 분석 → 개선" width="100%">
+
+| 프로젝트 | 구현한 내용 | 살펴보기 |
+|---|---|---|
+| 🌐 SW AIRBAG Web | 브라우저·Python BLE 연결, 실시간 차트, 기록 수집·DFU | [사례](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 🖥️ SW AIRBAG Windows | WebView2 앱, 연결 정리, 새로고침·종료 처리 | [사례](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 📱 SW AIRBAG Android | Capacitor BLE, 네이티브 파일 저장·공유 | [사례](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 🔎 Fall Trace | 저장 기록과 네이티브 재생 결과의 시간축 조사 | [사례·도구 개발 이력](https://github.com/BummoK/BummoK/blob/main/projects/09-recording-tools.md) |
+| 🚀 Web App Launcher | 모바일 앱 선택 UI, 실행 링크 설정 | [사례](https://github.com/BummoK/BummoK/blob/main/projects/10-web-launcher.md) |
+| ✨ GLOW PICK | React·Express·MongoDB 화장품 탐색·리뷰 | [개인 프로젝트](https://github.com/BummoK/BummoK/blob/main/projects/11-glow-pick.md) |
+| 🌿 ORIGIN I | 반응형 브랜드 페이지, 한국어·영어 콘텐츠 | [개인 프로젝트](https://github.com/BummoK/BummoK/blob/main/projects/12-origini.md) |
+
+| 센서 관리 · Windows | 저장 기록 분석 · Fall Trace |
+|---|---|
+| [![SW AIRBAG Desktop](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/sw-airbag-desktop.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) | [![Fall Trace](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/recording-inspector.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/09-recording-tools.md) |
+
+| 상품 탐색 · GLOW PICK | 브랜드 웹 · ORIGIN I |
+|---|---|
+| [![GLOW PICK](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/glow-pick.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/11-glow-pick.md) | [![ORIGIN I](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/origini-editorial.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/12-origini.md) |
+
+<sub>센서 화면은 연결 전 UI이며 GLOW PICK은 합성 데모 데이터, ORIGIN I는 보관된 페이지 프로토타입입니다. 소스는 비공개 저장소에서 관리하며 공개 페이지에는 기능·화면·검증 범위를 소개합니다.</sub>
 
 ## 대표 연구와 소프트웨어
 

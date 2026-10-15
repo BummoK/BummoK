@@ -1,5 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/profile-photo.jpg" alt="Bummo Koo portrait" width="160"></p>
+
 <p align="center"><strong>Bummo Koo · 구범모 | PhD in Biomedical Engineering</strong><br>Algorithm Development Team Lead · Principal Researcher, SW Development, Safeware<br>Connecting sensor AI research with mobile software and integration verification.</p>
 
 <p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.md">한국어</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">Android app</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">Research & publications</a></p>
@@ -16,6 +18,33 @@ focus = ["Sensor AI", "Wearable Healthcare"]
 work = ["Research", "Build", "Evaluate", "Improve"]
 ```
 
+
+
+## 🛠️ Apps & web projects
+
+I connect sensor research with usable software, and explore full-stack interfaces and brand experiences through personal projects.
+
+<img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/software-map.svg" alt="Sensor acquisition, management apps, recorded-data analysis and iteration" width="100%">
+
+| Project | Implementation | Case study |
+|---|---|---|
+| 🌐 SW AIRBAG Web | Browser / Python BLE, charts, recordings and DFU | [Suite](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 🖥️ SW AIRBAG Windows | WebView2 app and connection lifecycle handling | [Suite](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 📱 SW AIRBAG Android | Capacitor BLE, native storage and sharing | [Suite](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) |
+| 🔎 Fall Trace | Time-aligned recorded-data and native replay analysis | [Tools & history](https://github.com/BummoK/BummoK/blob/main/projects/09-recording-tools.md) |
+| 🚀 Web App Launcher | Mobile app selection and browser-local link settings | [Case](https://github.com/BummoK/BummoK/blob/main/projects/10-web-launcher.md) |
+| ✨ GLOW PICK | React / Express / MongoDB product discovery and reviews | [Personal project](https://github.com/BummoK/BummoK/blob/main/projects/11-glow-pick.md) |
+| 🌿 ORIGIN I | Responsive brand pages and KO/EN content | [Personal project](https://github.com/BummoK/BummoK/blob/main/projects/12-origini.md) |
+
+| Sensor management | Recorded-data investigation |
+|---|---|
+| [![SW AIRBAG](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/sw-airbag-desktop.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/08-sw-airbag-suite.md) | [![Fall Trace](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/recording-inspector.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/09-recording-tools.md) |
+
+| GLOW PICK | ORIGIN I |
+|---|---|
+| [![GLOW PICK](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/glow-pick.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/11-glow-pick.md) | [![ORIGIN I](https://raw.githubusercontent.com/BummoK/BummoK/main/assets/screenshots/origini-editorial.jpg)](https://github.com/BummoK/BummoK/blob/main/projects/12-origini.md) |
+
+<sub>Sensor screens show disconnected interfaces. GLOW PICK uses synthetic demo data; ORIGIN I shows an archived prototype. Source repositories are private. Device and field validation are stated separately in each case.</sub>
 
 ## Selected research and software
 
