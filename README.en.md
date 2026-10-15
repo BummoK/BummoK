@@ -1,25 +1,36 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
-<p align="center"><strong>PhD in Biomedical Engineering · ~3 years in AI and software development</strong><br>Sensor algorithms, performance evaluation and iterative improvement</p>
+<p align="center"><strong>Bummo Koo · 구범모 | PhD in Biomedical Engineering</strong><br>Algorithm Development Team Lead · Principal Researcher, SW Development, Safeware<br>Connecting sensor AI research with mobile software and integration verification.</p>
 
-<p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.md">한국어</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/01-sensor-ai.md">Sensor AI</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/02-evaluation.md">Evaluation</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/03-deployment-verification.md">Verification</a></p>
+<p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.md">한국어</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">Android app</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">Research & publications</a></p>
 
 ## Hello, sensor world
 
-**I develop AI algorithms for understanding human movement.** With a research background in biomedical engineering, I have taken responsibility for algorithm development, performance evaluation and improvement in a wearable fall-detection project.
+**I develop AI algorithms for human movement and connect sensor acquisition with software integration and evaluation.** I earned my PhD in Biomedical Engineering at Yonsei University and joined Safeware in May 2024. I currently serve as Algorithm Development Team Lead and Principal Researcher, with responsibility for wearable fall-detection algorithm development, evaluation and improvement.
+
+My work includes **first-author research on TinyFallNet**, an **Android app integrating BLE sensors, visualization and TensorFlow Lite inference**, anomaly-detection research, and synchronized sensor/video acquisition tools.
 
 ```python
 background = "Biomedical Engineering, PhD"
 focus = ["Sensor AI", "Wearable Healthcare"]
-work = ["Develop", "Evaluate", "Improve"]
+work = ["Research", "Build", "Evaluate", "Improve"]
 ```
 
 
-## Selected work
+## Selected research and software
 
-### Wearable IMU fall detection
+| Case study | My work | Output |
+|:---|:---|:---|
+| [Android sensor AI app](https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md) · Sep 2023–Jan 2024 | Kotlin, Jetpack Compose, BLE, charts, storage and TFLite integration | A research app connecting sensor acquisition with inference results |
+| [TinyFallNet](https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md) · Research in 2022 / published 2023 | ConvLSTM benchmarking, ResNet simplification and evaluation on older-adult data | First-author *Sensors* publication |
+| [Anomaly detection](https://github.com/BummoK/BummoK/blob/main/projects/06-anomaly-detection.md) · Jan–Aug 2023 | Normal-motion training, GANomaly, autoencoders and time-series prediction | Investigation of unseen motions and pre-impact detection limitations |
+| [Sensor acquisition GUI](https://github.com/BummoK/BummoK/blob/main/projects/07-sensor-acquisition.md) · Graduate research | IMU acquisition, LabVIEW synchronization and experimental data analysis | Tools for collecting signals and video for algorithm evaluation |
 
-Distinguishing falls from everyday movements while considering false alarms and detection timing. These are **three perspectives on one project**, with Korean case studies and English summaries.
+Case studies are in Korean with English summaries.
+
+## Current project: wearable fall detection
+
+Distinguishing falls from everyday movements while considering false alarms and detection timing. The following are **three work areas within the same current project**: development, evaluation and deployment verification.
 
 <a href="https://github.com/BummoK/BummoK/blob/main/projects/01-sensor-ai.md"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/case-01.svg" alt="01 Sensor AI — IMU preprocessing, model development and adaptation" width="100%"></a>
 
@@ -56,12 +67,23 @@ Compared model artifacts and execution paths. A recorded host-replay investigati
 |:---|:---|
 | Model development | Python · TensorFlow · Keras · TensorFlow Lite |
 | Sensor data and evaluation | NumPy · pandas · SciPy · IMU time series · Trial-level error analysis |
+| Mobile software | Kotlin · Jetpack Compose · Android Studio · BLE · TFLite inference |
+| Research instrumentation | MATLAB · LabVIEW · PyQt · .NET · Arduino · Keil · IAR |
 | Integration verification | C/C++ native execution comparisons · DLL replay · Algorithm integration for ARM targets |
 
-## Interests & contact
+## Education and selected publications
 
-Deep Learning · TinyML · Wearable Healthcare
+- **PhD, Biomedical Engineering, Yonsei University**, integrated master's and doctoral program, Mar 2018–Aug 2023. Dissertation: *Robust Pre- and Post-Impact Fall Detection Algorithm Based on Artificial Intelligence*.
+- **Bachelor's degree, Biomedical Engineering, Yonsei University**, Mar 2012–Feb 2018.
+- **First author:** [TinyFallNet: A Lightweight Pre-Impact Fall Detection Model](https://doi.org/10.3390/s23208459), *Sensors*, 2023.
+- **First author:** [The Performance of Post-Fall Detection Using the Cross-Dataset: Feature Vectors, Classifiers and Processing Conditions](https://doi.org/10.3390/s21144638), *Sensors*, 2021.
 
-Email: [koobummo726@gmail.com](mailto:koobummo726@gmail.com)
+[Research background, publications and presentations →](https://github.com/BummoK/BummoK/blob/main/research.md)
+
+## Interests and contact
+
+Sensor AI · TinyML · Deep Learning · Wearable Healthcare
+
+[koobummo726@gmail.com](mailto:koobummo726@gmail.com) · [Google Scholar](https://scholar.google.co.kr/citations?user=r-tpjqAAAAAJ)
 
 <sub>Reported comparisons use recorded data for development and regression verification. They are distinct from final device alarms and field performance; conditions are described in each case study.</sub>

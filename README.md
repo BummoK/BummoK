@@ -1,25 +1,34 @@
 <p align="center"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/cover.svg" alt="Biomedical AI — Sensor algorithms, evaluation and software" width="100%"></p>
 
-<p align="center"><strong>의공학 박사 · AI 알고리즘 및 소프트웨어 개발 약 3년</strong><br>센서 데이터에서 알고리즘 개발, 성능 평가와 개선까지</p>
+<p align="center"><strong>구범모 · Bummo Koo | 의공학 박사</strong><br>세이프웨어(주) SW개발실 알고리즘 개발팀 팀장 · 책임연구원<br>센서 AI 연구를 모바일 소프트웨어와 제품 적용 검증으로 연결합니다.</p>
 
-<p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.en.md">English</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/01-sensor-ai.md">AI 개발</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/02-evaluation.md">평가와 개선</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/03-deployment-verification.md">배포 검증</a></p>
+<p align="center"><a href="https://github.com/BummoK/BummoK/blob/main/README.en.md">English</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md">모바일 앱</a> · <a href="https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md">TinyFallNet</a> · <a href="https://github.com/BummoK/BummoK/blob/main/research.md">학력·논문</a></p>
 
 ## 안녕하세요
 
-**사람의 움직임을 분석하는 AI 알고리즘을 개발합니다.** 의공학 연구 배경을 바탕으로 웨어러블 낙상 감지 프로젝트의 알고리즘 개발·성능 평가·개선 전반을 담당했습니다.
+**사람의 움직임을 분석하는 AI 알고리즘을 개발하고, 센서 데이터 수집부터 실제 실행 환경의 검증까지 연결합니다.** 연세대학교에서 의공학 박사학위를 취득했으며, 2024년 5월부터 세이프웨어에서 근무하고 있습니다. 현재 알고리즘 개발팀 팀장·책임연구원으로 웨어러블 낙상 감지 알고리즘의 개발·성능 평가·개선 전반을 담당합니다.
+
+연구에서는 **TinyFallNet 제1저자**로 경량 낙상 검출 모델을 발표했고, 소프트웨어에서는 **BLE 센서 연결·시각화·TensorFlow Lite 추론을 통합한 Android 앱**을 개발했습니다. 학습 데이터 밖의 동작에 대응하는 이상치 검출과, 센서·영상의 동기화 수집 환경도 다뤘습니다.
 
 ```python
 background = "Biomedical Engineering, PhD"
 focus = ["Sensor AI", "Wearable Healthcare"]
-work = ["Develop", "Evaluate", "Improve"]
+work = ["Research", "Build", "Evaluate", "Improve"]
 ```
 
 
-## 만들고 개선한 것들
+## 대표 연구와 소프트웨어
 
-### 웨어러블 IMU 기반 낙상 감지
+| 사례 | 직접 수행한 일 | 결과와 산출물 |
+|:---|:---|:---|
+| [Android 센서 AI 앱](https://github.com/BummoK/BummoK/blob/main/projects/04-android-sensor-app.md) · 2023.09–2024.01 | Kotlin·Jetpack Compose, BLE 수신, 차트·저장, TFLite 모델 통합 | 센서 연결부터 모델 결과 표시까지 이어지는 연구용 앱 |
+| [TinyFallNet 경량 모델](https://github.com/BummoK/BummoK/blob/main/projects/05-tinyfallnet.md) · 2022 연구 / 2023 게재 | ConvLSTM 벤치마킹, ResNet 구조 경량화, 고령자 데이터 평가 | *Sensors* 제1저자 논문 |
+| [이상치 검출 기반 낙상 연구](https://github.com/BummoK/BummoK/blob/main/projects/06-anomaly-detection.md) · 2023.01–08 | 정상 동작 학습, GANomaly·Autoencoder 검토, 시계열 예측 방식 탐색 | 미관측 동작과 충격 전 검출의 한계를 분석한 연구 |
+| [센서·영상 수집 GUI](https://github.com/BummoK/BummoK/blob/main/projects/07-sensor-acquisition.md) · 대학원 연구 | IMU 신호 수집, LabVIEW 동기화 저장, 실험 데이터 분석 | 알고리즘 평가에 사용할 신호·영상 수집 환경 |
 
-낙상과 일상동작을 구분하면서 오경보와 검출 시점을 함께 고려하는 알고리즘 개발. **하나의 프로젝트를 세 가지 업무 관점**으로 정리했습니다.
+## 현재 프로젝트: 웨어러블 낙상 감지
+
+낙상과 일상동작을 구분하면서 오경보와 검출 시점을 함께 고려합니다. 아래 세 사례는 **동일한 현재 프로젝트의 개발·평가·배포 검증 업무**입니다.
 
 <a href="https://github.com/BummoK/BummoK/blob/main/projects/01-sensor-ai.md"><img src="https://raw.githubusercontent.com/BummoK/BummoK/main/assets/case-01.svg" alt="01 Sensor AI — IMU preprocessing, model development and adaptation" width="100%"></a>
 
@@ -56,12 +65,23 @@ work = ["Develop", "Evaluate", "Improve"]
 |:---|:---|
 | 모델 개발 | Python · TensorFlow · Keras · TensorFlow Lite |
 | 센서 데이터와 평가 | NumPy · pandas · SciPy · IMU 시계열 · 시행 단위 오류 분석 |
+| 모바일 소프트웨어 | Kotlin · Jetpack Compose · Android Studio · BLE · TFLite 추론 |
+| 연구용 계측·도구 | MATLAB · LabVIEW · PyQt · .NET · Arduino · Keil · IAR |
 | 알고리즘 적용 검증 | C/C++ 네이티브 실행 비교 · DLL 재생 평가 · ARM 대상 알고리즘 통합 |
+
+## 학력과 대표 논문
+
+- **연세대학교 의공학 박사**, 석박사통합과정, 2018.03–2023.08. 학위논문: *Robust Pre- and Post-Impact Fall Detection Algorithm Based on Artificial Intelligence*.
+- **연세대학교 의공학 학사**, 2012.03–2018.02.
+- **제1저자:** [TinyFallNet: A Lightweight Pre-Impact Fall Detection Model](https://doi.org/10.3390/s23208459), *Sensors*, 2023.
+- **제1저자:** [The Performance of Post-Fall Detection Using the Cross-Dataset: Feature Vectors, Classifiers and Processing Conditions](https://doi.org/10.3390/s21144638), *Sensors*, 2021.
+
+[연구 배경·대표 논문·학회 발표 더 보기 →](https://github.com/BummoK/BummoK/blob/main/research.md)
 
 ## 관심 분야와 연락처
 
-Deep Learning · TinyML · 웨어러블 헬스케어
+Sensor AI · TinyML · Deep Learning · Wearable Healthcare
 
-이메일: [koobummo726@gmail.com](mailto:koobummo726@gmail.com)
+[koobummo726@gmail.com](mailto:koobummo726@gmail.com) · [Google Scholar](https://scholar.google.co.kr/citations?user=r-tpjqAAAAAJ)
 
 <sub>사례의 수치는 저장 데이터의 개발·회귀 검증 기록입니다. 실제 기기의 최종 알람 및 현장 성능과 구분하며, 평가 조건은 각 사례에 기재했습니다.</sub>
